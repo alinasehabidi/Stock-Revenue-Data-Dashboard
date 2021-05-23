@@ -1,6 +1,6 @@
 # Stock-Revenue-Data-Dashboard
-# Python program to web scrape short percent of float for all SPX500 companies
-Uses beautiful soup to web scrape data from http://shortsqueeze.com/. This script launches an automated chrome window to scrape data from short squeeze.com using tickers.
+
+This Project Uses beautiful soup to web scrape data from http://shortsqueeze.com/. This script launches an automated chrome window to scrape data from short squeeze.com using tickers.
 This program configures chrome webdrive to use Tor's (free browser) proxy. This enables us to get more than the limited daily quotes from short squeeze which are based on public I.P. address. Tor must be open while the program runs.
 
 It outputs a file (result.csv) file in the directory from which the script was executed.
